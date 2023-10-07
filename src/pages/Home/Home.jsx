@@ -3,6 +3,7 @@ import LeftSideNav from "../shared/LeftSideNav/Leftsidenav";
 import RightSideNav from "../shared/Rightsidenav/Rightsidenav";
 import Navbar from "../shared/navbar/Navbar";
 import BreakingNews from "./BreakingNews";
+import News from "./News";
 
 const Home = () => {
     return ( 
@@ -15,7 +16,7 @@ const Home = () => {
                     <LeftSideNav></LeftSideNav>
                 </div>
                 <div className="md:col-span-2">
-                    <h2 className="text-4xl">New Coming Soon</h2>
+                    <News></News>
                 </div>
                 <div>
                     <RightSideNav></RightSideNav>
